@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1><center>SHOW EVENT...</center></h1>
+
+
+
+    <p>Start_date :
+    <%=@event.start_date%></p>
+
+    <p>Duration :
+    <%=@event.duration%></p>
+
+    <p>Titre :
+    <%=@event.title%></br></p>
+
+    <p>Description:</p>
+    <%=@event.description%> </br></br>
+
+    <p>Price :
+    <%=@event.price%> €</p>
+
+    <p>Location :
+    <%=@event.location%></p></br>
+
+    <p>Admin :
+    <%=@event.admin.first_name%></p>
+
+
+
+  </body>
+</html>

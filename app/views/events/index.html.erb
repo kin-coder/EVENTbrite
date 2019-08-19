@@ -1,0 +1,23 @@
+<html>
+</br>
+<h1 class="text-success"><center>Les EVENEMENTS</center></h1>
+<% @event.each do |event| %>
+  <p class="text-primary"> <b>Titre:</b>
+    <%= event.title %></p>
+
+  <p>Description:</p>
+  <%= event.description %> </br></br>
+
+  <p>Location:
+    <%= event.location %> </p>
+
+  <p>Prix:
+    <%= event.price %> €</p>
+
+    <input type ="button" value="Show" onclick="document.location.href='<%= event_path(event.id)%>';" style="background-color: lime">
+
+<% end %>
+
+</html>
+
+<p>Find me in app/views/events/index.html.erb</p>
