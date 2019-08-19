@@ -1,1 +1,1 @@
-# eventbrite_menja
+# EVENTbrite 2.0
